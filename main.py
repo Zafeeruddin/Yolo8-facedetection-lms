@@ -157,7 +157,7 @@ class YOLOv8_face:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--imgpath', type=str, default='images/2.jpg', help="image path")
+    parser.add_argument('--imgpath', type=str, default='images/man2.jpeg', help="image path")
     parser.add_argument('--modelpath', type=str, default='weights/yolov8n-face.onnx',
                         help="onnx filepath")
     parser.add_argument('--confThreshold', default=0.45, type=float, help='class confidence')
